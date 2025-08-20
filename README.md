@@ -3,10 +3,10 @@
 A simple digital clock built with **HTML**, **CSS**, and **JavaScript** that displays the current time in real-time.
 
 ## Features
-- Displays current hours, minutes, and seconds
+- Displays current week, hours, minutes, and seconds
 - Live updates every second
 - Stylish and responsive design
-- Optional: supports 12-hour (AM/PM) format
+- Optional: supports 24 hours
 
 ## How to Use
 1. Clone the repository:
