@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'FX_LED';
+    src: url("fonts/FX_LED.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'HACKED';
+    src: url("fonts/Hacked.ttf") format("truetype");
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'FX_LED';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.digital-clock {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    border-radius: 2rem;
+    user-select: none;
+    padding: 0 2rem;
+    border: 0.5rem solid #2d2d2d;
+}
+
+.week {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    color: #2d2d2d;
+    font-weight: bold;
+    font-family: 'HACKED';
+}
+
+.week .active {
+    color: #fff;
+}
+
+.time {
+    font-family: 'FX_LED';
+}
+
+.hour,
+.min,
+.dot {
+    display: inline-block;
+    font-size: 13rem;
+}
+
+.min{
+    display: inline-block;
+}
+
+.invisible {
+    visibility: hidden;
+}
